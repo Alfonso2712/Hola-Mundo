@@ -1,0 +1,40 @@
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
+
+
+.cuadro {
+    width: 250px;
+    height: 250px;
+
+
+    border: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 1px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.cuadro-1 {
+    background-color: #FF6B6B;
+
+}
+
+.cuadro-2 {
+    background-color: #4ECDC4;
+
+}
+
+.cuadro-3 {
+    background-color: #45B7D1;
+
+}
+
+.cuadro-4 {
+    background-color: #F9D56E;
+
+}
