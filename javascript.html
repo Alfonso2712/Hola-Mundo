@@ -10,8 +10,78 @@
 
 <body>
     <script>
-        confirm("Hola Mundo");
+        function Alerta() {
+            alert(document.getElementById('txtnombre').value);
+        }
+        function cambioestilo() {
+            document.getElementById('txtnombre').className = "seleccionado";
+        }
     </script>
+
+    <script>
+        function sumaresta(operacion) {
+            var numA = parseFloat(document.getElementById('txtnumeroA').value) || 0;
+            var numB = parseFloat(document.getElementById('txtnumeroB').value) || 0;
+            document.getElementById('txtresultado').value = "";
+
+            if (operacion == "+") {
+                document.getElementById('txtresultado').value = numA + numB;
+            }
+            if (operacion == "-") {
+                document.getElementById('txtresultado').value = numA - numB;
+            }
+            if (operacion == "*") {
+                document.getElementById('txtresultado').value = numA * numB;
+            }
+            if (operacion == "/") {
+                document.getElementById('txtresultado').value = numA / numB;
+            }
+        }
+
+
+
+        function limpiar() {
+            document.getElementById('txtnumeroA').value = "";
+            document.getElementById('txtnumeroB').value = "";
+            document.getElementById('txtresultado').value = "";
+        }
+    </script>
+    <style>
+        .seleccionado {
+            border-color: aqua;
+            border-style: solid;
+            border-width: 2px;
+        }
+    </style>
+    <input type="text" id="txtnombre" onclick="cambioestilo()">
+    <input type="button" value="Mostrar" onclick="Alerta()">
+    <br><br>
+
+    <label for="txtnumeroA">Numero A</label>
+    <input type="number" id="txtnumeroA">
+    <br><br>
+
+    <input type="button" value="+" onclick="sumaresta('+')">
+    <br><br>
+
+    <input type="button" value="-" onclick="sumaresta('-')">
+    <br><br>
+
+    <input type="button" value="*" onclick="sumaresta('*')">
+    <br><br>
+
+    <input type="button" value="/" onclick="sumaresta('/')">
+    <br><br>
+
+    <label for="txtnumeroB">Numero B</label>
+    <input type="number" id="txtnumeroB">
+    <br><br>
+
+    <label for="txtresultado">Resultado</label>
+    <input type="number" id="txtresultado">
+    <br><br>
+
+    <input type="button" value="Limpiar" onclick="limpiar()">
 </body>
 
 </html>

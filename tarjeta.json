@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "etiqueta_destacada": "Lo más vendido",
+        "titulo": "Air Jordan 1 Low SE",
+        "categoria": "Tenis para hombre",
+        "precio": "3,299",
+        "imagen": "img/imagen.avif"
+    },
+    {
+        "id": 2,
+        "etiqueta_destacada": "Lo más vendido",
+        "titulo": "Air Jordan 1 Mid",
+        "categoria": "Tenis",
+        "precio": "3,199",
+        "imagen": "img/imagen2.avif"
+    },
+    {
+        "id": 3,
+        "etiqueta_destacada": "",
+        "titulo": "Air Jordan 1 Mid",
+        "categoria": "Tenis para hombre",
+        "precio": "3,199",
+        "imagen": "img/imagen3.avif"
+    },
+    {
+        "id": 4,
+        "etiqueta_destacada": "Novedad",
+        "titulo": "Air Jordan 1 High OG",
+        "categoria": "Tenis para hombre",
+        "precio": "4,299",
+        "imagen": "img/imagen4.avif"
+    },
+    {
+        "id": 5,
+        "etiqueta_destacada": "Solo para miembros",
+        "titulo": "Air Jordan 1 Low Elevate",
+        "categoria": "Tenis para mujer",
+        "precio": "3,499",
+        "imagen": "img/imagen5.avif"
+    },
+    {
+        "id": 6,
+        "etiqueta_destacada": "",
+        "titulo": "Air Jordan 1 Zoom CMFT 2",
+        "categoria": "Tenis para hombre",
+        "precio": "3,699",
+        "imagen": "img/imagen6.avif"
+    },
+    {
+        "id": 7,
+        "etiqueta_destacada": "",
+        "titulo": "Air Jordan 1 Low SE",
+        "categoria": "Tenis para hombre",
+        "precio": "3,999",
+        "imagen": "img/imagen7.avif"
+    }
+]
